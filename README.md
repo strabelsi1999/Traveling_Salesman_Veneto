@@ -1,2 +1,8 @@
 # Traveling_Salesman_Venezia
-Traveling Salesman Venezia
+This project focuses on optimizing the delivery route for a salesman who starts in Venezia, Italy, and needs to deliver packages to various cities in the Veneto region before heading to Milan. The goal is to maximize the number of packages delivered within a specified deadline.
+Problem Description: The problem at hand can be described as the classical Traveling Salesman Problem (TSP) with additional constraints. The TSP involves finding the shortest possible route that visits a set of cities exactly once and returns to the starting city. In this case, the starting city is Venezia, and the final destination is Milan. However, the objective is not only to minimize the distance traveled but also to deliver as many packages as possible within a given time limit. Each city in the Veneto region has a specific demand, representing the number of packages to be delivered there. The salesman must prioritize visiting cities with higher demands while ensuring that the overall route can be completed before the deadline expires.
+Approach:
+1. Data Collection: Gather information about the cities in the Veneto region, including their distances from Venezia and the package demands in each city.
+2. Formulation: Model the problem as an optimization program, considering the constraints and objectives. The decision variables are wether the salesman goes from city i to city j.
+3. Time Management: Ensure that the algorithm takes into account the time required to travel between cities, the time spent delivering packages, and the deadline. This could involve dynamically adjusting the route based on estimated travel times and delivery durations.
+4. Output: Once an optimized solution is obtained, generate a route plan that specifies the order of cities to be visited and the number of packages delivered in each city
